@@ -1,0 +1,13 @@
+prefix=/home/edith/data_science/venv
+exec_prefix=/home/edith/data_science/venv
+libdir=/home/edith/data_science/venv/lib
+sharedlibdir=/home/edith/data_science/venv/lib
+includedir=/home/edith/data_science/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
